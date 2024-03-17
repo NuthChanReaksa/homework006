@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from 'flowbite-react';
 
+const navigation =[
+  {name:''}
+]
 export default function HeaderComponent() {
   return (
     <Navbar fluid rounded>
@@ -20,16 +23,16 @@ export default function HeaderComponent() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="/page" active>
           HOME
         </NavbarLink>
         <NavbarLink>
-          <Link href="/about">ABOUT</Link>
+          <Link href="/aboutUsPage/page">ABOUT</Link>
         </NavbarLink>
-        <NavbarLink href="#">COURSE</NavbarLink>
-        <NavbarLink href="#">ANNOUNCEMENT</NavbarLink>
-        <NavbarLink href="#">ABOUT US</NavbarLink>
-        <NavbarLink href="#">CONTACT US</NavbarLink>
+        <NavbarLink href="/coursePage/page">COURSE</NavbarLink>
+        <NavbarLink href="/enrollPage/page">ENROLL</NavbarLink>
+        <NavbarLink href="/iTNewPage/page">ITNEW</NavbarLink>
+        <NavbarLink href="/jobOpportunity/page">JOBOPPORTUNITY</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
