@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function JobOpportunity() {
@@ -11,7 +12,7 @@ export default function JobOpportunity() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div id="job" className="grid gap-8 lg:grid-cols-2 justify-center">
             {/* course 1 */}
-            <a
+            <Link
               href="./../Job Views/WebEssentials.html"
               className="max-w-xl bg-white overflow-hidden rounded-2xl flex flex-col sm:flex-row hover:scale-[1.1] duration-300"
             >
@@ -55,10 +56,10 @@ export default function JobOpportunity() {
                   className="w-4/5 object-cover"
                 />
               </div>
-            </a>
+            </Link>
             {/*end of course 1 */}
             {/* course 2 */}
-            <a
+            <Link
               href="./../Job Views/Senior-Spring-Web.html"
               className="max-w-xl bg-white overflow-hidden rounded-2xl flex flex-col sm:flex-row hover:scale-[1.1] duration-300"
             >
@@ -99,10 +100,10 @@ export default function JobOpportunity() {
                   className="w-4/5 object-cover"
                 />
               </div>
-            </a>
+            </Link>
             {/* end of course 2 */}
             {/* course 3 */}
-            <a
+            <Link
               href="./../Job Views/Sky-Booking.html"
               className="max-w-xl bg-white overflow-hidden rounded-2xl flex flex-col sm:flex-row hover:scale-[1.1] duration-300"
             >
@@ -144,10 +145,10 @@ export default function JobOpportunity() {
                   className="w-4/5 object-cover"
                 />
               </div>
-            </a>
+            </Link>
             {/* end of course 3 */}
             {/* course 4 */}
-            <a
+            <Link
               href="./../Job Views/ISTAD-Job.html"
               className="max-w-xl bg-white overflow-hidden rounded-2xl flex flex-col sm:flex-row hover:scale-[1.1] duration-300"
             >
@@ -192,7 +193,7 @@ export default function JobOpportunity() {
                   className="w-4/5 object-cover"
                 />
               </div>
-            </a>
+            </Link>
             {/* end of course 4 */}
           </div>
         </div>

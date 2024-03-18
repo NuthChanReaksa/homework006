@@ -1,5 +1,6 @@
 import React from "react";
 import CardMobileComponent from "./CardMobileComponent";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -123,20 +124,20 @@ export default function AboutPage() {
         info.
       </p>
       <div className="flex gap-3 justify-center my-3">
-        <a href="https://apps.apple.com/kh/app/cstad-mobile/id6463835798">
+        <Link href="https://apps.apple.com/kh/app/cstad-mobile/id6463835798">
           <img
             src="https://social.webestica.com/assets/images/app-store.svg"
             alt="Appstore Button"
             className="h-10"
           />
-        </a>
-        <a href="https://play.google.com/store/apps/details?id=co.istad.mobile.istad_moblie&pcampaignid=web_share">
+        </Link>
+        <Link href="https://play.google.com/store/apps/details?id=co.istad.mobile.istad_moblie&pcampaignid=web_share">
           <img
             src="https://social.webestica.com/assets/images/google-play.svg"
             alt="Playstore Button"
             className="h-10"
           />
-        </a>
+        </Link>
       </div>
       {/* End of App download links */}
 

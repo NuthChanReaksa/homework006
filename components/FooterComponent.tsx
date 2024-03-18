@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 export default function FooterComponent() {
   return (
     <footer className="px-3 pt-4 lg:px-9 border-t-2 bg-blue-800 text-center sm:text-center md:text-center">
       <div className="container mx-auto grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="ml-4">
-        <a href="index.html" className="flex items-center">
+        <Link href="index.html" className="flex items-center">
             <img
               src="https://istad.co/resources/img/CSTAD_120.png"
               alt="logo"
@@ -12,7 +14,7 @@ export default function FooterComponent() {
             <span className="ml-2 text-lg font-bold tracking-wide text-white">
               Start your IT career with CSTAD
             </span>
-          </a>
+          </Link>
           <p className="mt-4 text-sm text-white text-justify">
             CSTAD is a noteworthy science and technology center in Cambodia.
             CSTAD has routed Cambodian students to advanced science and
@@ -23,18 +25,18 @@ export default function FooterComponent() {
         </div>
         <div className="flex flex-col gap-2 text-lg text-white">
           <p className="text-base font-bold tracking-wide">LEARN MORE</p>
-          <a href="./course/course.html">Course</a>
-          <a href="./announcement/itnews.html">IT News</a>
-          <a href="./announcement/AnnounmnetJob.html">Job Opportunity</a>
-          <a href="./policy/privacy.html">Privacy Policy</a>
-          <a href="./policy/faq.html">FAQ</a>
+          <Link href="./course/course.html">Course</Link>
+          <Link href="./announcement/itnews.html">IT News</Link>
+          <Link href="./announcement/AnnounmnetJob.html">Job Opportunity</Link>
+          <Link href="./policy/privacy.html">Privacy Policy</Link>
+          <Link href="./policy/faq.html">FAQ</Link>
         </div>
         <div className="flex flex-col gap-2 text-lg text-white">
           <p className="text-base font-bold tracking-wide">POPULAR COURSE</p>
-          <a href="./course/course.html">Web Design</a>
-          <a href="./course/course.html">Flutter Mobile Development</a>
-          <a href="./course/course.html">Spring framework</a>
-          <a href="./course/course.html">Java Programming</a>
+          <Link href="./course/course.html">Web Design</Link>
+          <Link href="./course/course.html">Flutter Mobile Development</Link>
+          <Link href="./course/course.html">Spring framework</Link>
+          <Link href="./course/course.html">Java Programming</Link>
         </div>
         <div className="mt-3">
           <p className="text-base font-bold tracking-wide text-white">
@@ -42,7 +44,7 @@ export default function FooterComponent() {
           </p>
 
           <div className="gap-1 pt-5 pb-6 flex">
-            <a
+            <Link
               href="https://apps.apple.com/kh/app/cstad-mobile/id6463835798"
               className="w-full min-w-xl flex justify-end"
             >
@@ -51,8 +53,8 @@ export default function FooterComponent() {
                 alt="Appstore Button"
                 className="h-10"
               />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://play.google.com/store/apps/details?id=co.istad.mobile.istad_moblie&pcampaignid=web_share"
               className="w-full min-w-xl"
             >
@@ -61,7 +63,7 @@ export default function FooterComponent() {
                 alt="Playstore Button"
                 className="h-10"
               />
-            </a>
+            </Link>
           </div>
 
           <p className="text-base font-bold tracking-wide text-white">
@@ -69,25 +71,25 @@ export default function FooterComponent() {
           </p>
           <div className="text-white">
             <span className="mr-1">Email:</span>
-            <a href="mailto:info.istad@gmail.com" title="send email">
+            <Link href="mailto:info.istad@gmail.com" title="send email">
               info.istad@gmail.com
-            </a>
+            </Link>
           </div>
           <p className="text-white">
-            <a href="tel:+85595990910">(+855) 95-990-910</a>
+            <Link href="tel:+85595990910">(+855) 95-990-910</Link>
             <br />
-            <a href="tel:+85593990910">(+855) 93-990-910</a>
+            <Link href="tel:+85593990910">(+855) 93-990-910</Link>
           </p>
           <div className="justify-start space-x-3 text-white text-2xl">
-            <a href="https://www.facebook.com/istad.co/?ref=embed_page">
+            <Link href="https://www.facebook.com/istad.co/?ref=embed_page">
               <i className="fa-brands fa-facebook"></i>
-            </a>
-            <a href="https://www.youtube.com/@istad7665">
+            </Link>
+            <Link href="https://www.youtube.com/@istad7665">
               <i className="fa-brands fa-youtube"></i>
-            </a>
-            <a href="https://t.me/istadkh">
+            </Link>
+            <Link href="https://t.me/istadkh">
               <i className="fa-brands fa-telegram"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
